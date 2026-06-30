@@ -5,27 +5,27 @@
 class SnCli < Formula
   desc "Cli tool to interact with the solarnetwork api"
   homepage "https://github.com/SolarNetwork/sn-cli"
-  url "https://github.com/SolarNetwork/sn-cli/archive/refs/tags/0.12.6.tar.gz"
-  version "0.12.6"
-  sha256 "126306a2237cd8d033136449fe70f54c2cf9555bd35c814bd2e9af3291bd03de"
+  url "https://github.com/SolarNetwork/sn-cli/archive/refs/tags/0.13.0.tar.gz"
+  version "0.13.0"
+  sha256 "cea1cb14fc80a3003124d741dea9b1ae513f625cafedd3653dfab5b7779e67e0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/SolarNetwork/sn-cli/releases/download/0.12.6/sn-cli-0.12.6-darwin-arm64.tar.gz"
-      sha256 "d907c0f4a7c6b763f007748e1ae5c2614efe728a08407eb899c87f24744be70c"
+      url "https://github.com/SolarNetwork/sn-cli/releases/download/0.13.0/sn-cli-0.13.0-darwin-arm64.tar.gz"
+      sha256 "259cac4019f0561f316f4bbc7f045d5dc115ae921423855a6c579686d210603a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SolarNetwork/sn-cli/releases/download/0.12.6/sn-cli-0.12.6-linux-amd64.tar.gz"
-      sha256 "45afd4c883af5e7c0fd19322e6167a996c4c938ef604c86f1790be6c4497005c"
+      url "https://github.com/SolarNetwork/sn-cli/releases/download/0.13.0/sn-cli-0.13.0-linux-amd64.tar.gz"
+      sha256 "13af23be4d9e1cf3b17a5c7386b734852ddc5638149cc8519dec23a5a58f81aa"
     end
 
     on_arm do
-      url "https://github.com/SolarNetwork/sn-cli/releases/download/0.12.6/sn-cli-0.12.6-linux-arm64.tar.gz"
-      sha256 "96dcd4ba93bb148e3391186842e566592dd0d6b02189fa2a54a25763651c10b7"
+      url "https://github.com/SolarNetwork/sn-cli/releases/download/0.13.0/sn-cli-0.13.0-linux-arm64.tar.gz"
+      sha256 "400932a456f28537a7084acf1e573e24324b9e59131e966b0a7e5e4c3b983d77"
     end
   end
 
