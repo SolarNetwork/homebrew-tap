@@ -14,6 +14,9 @@ brew "<formula>"
 ```
 
 <!-- project_table_start -->
+| Project                                          | Description                                    | Install               |
+| ------------------------------------------------ | ---------------------------------------------- | --------------------- |
+| [sn-cli](https://github.com/SolarNetwork/sn-cli) | Cli tool to interact with the solarnetwork api | `brew install sn-cli` |
 <!-- project_table_end -->
           
 ## Documentation
