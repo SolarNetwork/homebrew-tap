@@ -14,9 +14,10 @@ brew "<formula>"
 ```
 
 <!-- project_table_start -->
-| Project                                          | Description                                    | Install               |
-| ------------------------------------------------ | ---------------------------------------------- | --------------------- |
-| [sn-cli](https://github.com/SolarNetwork/sn-cli) | Cli tool to interact with the solarnetwork api | `brew install sn-cli` |
+| Project                                                                      | Description                                       | Install                             |
+| ---------------------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------- |
+| [sn-cli](https://github.com/SolarNetwork/sn-cli)                             | Cli tool to interact with the solarnetwork api    | `brew install sn-cli`               |
+| [solarnode-filter-sim](https://github.com/SolarNetwork/solarnode-filter-sim) | Tool to simulate solarnode filter execution flows | `brew install solarnode-filter-sim` |
 <!-- project_table_end -->
           
 ## Documentation
