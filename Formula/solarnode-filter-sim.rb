@@ -5,26 +5,26 @@
 class SolarnodeFilterSim < Formula
   desc "Tool to simulate solarnode filter execution flows"
   homepage "https://github.com/SolarNetwork/solarnode-filter-sim"
-  url "https://github.com/SolarNetwork/solarnode-filter-sim/archive/refs/tags/0.8.0.tar.gz"
-  version "0.8.0"
-  sha256 "540ce26b4967d3c7d6974aaa5cd696afb4c881bbb8020727260dc3008e4725e7"
+  url "https://github.com/SolarNetwork/solarnode-filter-sim/archive/refs/tags/0.9.0.tar.gz"
+  version "0.9.0"
+  sha256 "8b32c1d08c66922549b9256003be41348fc2eb8a7998e8cde0ee544074aaa3ee"
 
   on_macos do
     on_arm do
-      url "https://github.com/SolarNetwork/solarnode-filter-sim/releases/download/0.8.0/solarnode-filter-sim-0.8.0-darwin-arm64.tar.gz"
-      sha256 "b5a8f3c2d75ea0a5bdb7fafb1ed2f421f379b738f3495e36a1c9e12f3a3d5102"
+      url "https://github.com/SolarNetwork/solarnode-filter-sim/releases/download/0.9.0/solarnode-filter-sim-0.9.0-darwin-arm64.tar.gz"
+      sha256 "be4a4bdfc4b8f73f1bde22631222fa29467511041b16ad76e4485c3319d1ced1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/SolarNetwork/solarnode-filter-sim/releases/download/0.8.0/solarnode-filter-sim-0.8.0-linux-amd64.tar.gz"
-      sha256 "d2e175d84b85456bc210793cfe7181d29c2745aa8f2625e96c0984f0fbd8262d"
+      url "https://github.com/SolarNetwork/solarnode-filter-sim/releases/download/0.9.0/solarnode-filter-sim-0.9.0-linux-amd64.tar.gz"
+      sha256 "6b02126e85e23398e9b6c57f4ed8ef4d7b7a31ff5788a59de1954ea8587b1f31"
     end
 
     on_arm do
-      url "https://github.com/SolarNetwork/solarnode-filter-sim/releases/download/0.8.0/solarnode-filter-sim-0.8.0-linux-arm64.tar.gz"
-      sha256 "7c1d94fbbb20d101fb4c5699b31338b5ce78c986ccc29fda109fc10a1e674cac"
+      url "https://github.com/SolarNetwork/solarnode-filter-sim/releases/download/0.9.0/solarnode-filter-sim-0.9.0-linux-arm64.tar.gz"
+      sha256 "2850abcebd69b35cadd774e2b5f29a657d3b075c2dfaea3d2743e3efc2419555"
     end
   end
 
